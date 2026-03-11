@@ -16,4 +16,6 @@ Here's a list of stuff this library supports:
 
 Nothing here was written explicitly to support any particular networking library but doing so should be pretty simple.
 
-You won't find any unity packages here because I've moved to s&box and seriously just do not care to bundle this properly. Implement your own code based on the examples provided here - you'll have a hard time copying the entire repo into your unity project without something breaking.
+You won't find any unity package here because I've moved to s&box and seriously just do not care to bundle this properly. Implement your own code based on the examples provided here - you'll have a hard time copying the entire repo into your unity project without something breaking.
+
+If you need a place to start, look at ```./Kinematics/MotionStacks/NimbleMotionStack.cs```

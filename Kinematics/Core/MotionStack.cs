@@ -46,13 +46,13 @@ namespace Assets.quatworks.INFRASEC.Kinematics.Core {
         public abstract void OnTranslateDown(float amount, MovingElement mover);
 
         /// <summary>
-        /// Rotation of the mouse or gamepad joystick.
+        /// Movement of the mouse or gamepad joystick.
         /// </summary>
         /// <param name="amount"></param>
         public abstract void OnRotate(ref Vector3 amount, MovingElement mover);
 
         /// <summary>
-        /// Rotation of the mouse or gamepad joystick.
+        /// Movement of the mouse or gamepad joystick.
         /// </summary>
         /// <param name="amount"></param>
         public abstract void OnRotate(ref Quaternion amount, MovingElement mover);
@@ -65,7 +65,8 @@ namespace Assets.quatworks.INFRASEC.Kinematics.Core {
         public abstract void OnImpulse(float amount, MovingElement mover);
 
         /// <summary>
-        /// 
+        /// Basically just wishdir, but the exact properties of the vector
+        /// returned here may depend on the movement paradigm represented by this motionstack
         /// </summary>
         /// <returns></returns>
         public abstract Vector3 GetDesiredMovement();
@@ -85,18 +86,21 @@ namespace Assets.quatworks.INFRASEC.Kinematics.Core {
 
         /// <summary>
         /// Called by instantiating composer during Unity's Update().
+        /// This is where you put dynamic stuff that needs to respond
+        /// to movement changes, but doesn't require physics computation.
         /// </summary>
         internal abstract void OnUpdate(MovingElement mover);
 
         /// <summary>
         /// Called by instantiating composer during Unity's FixedUpdate().
+        /// This is where all the movement code goes.
         /// </summary>
         internal abstract void ExecuteMotionStack(MovingElement mover);
 
         /// <summary>
         /// Called whenever implementing MovingELements switch to this MovementMotor
-        /// <para/> Can be used as if it were a constructor, but this method can be called
-        /// any number of times throughout this object's lifespan.
+        /// <para/> This is particularly useful if you need a place to initalize 
+        /// lazily or reset this MovingElement between initializations.
         /// </summary>
         internal abstract void OnActivate(MovingElement initializer);
 
@@ -121,7 +125,7 @@ namespace Assets.quatworks.INFRASEC.Kinematics.Core {
 
 
     /// <summary>
-    /// A "null" motor with no implementation to avoid actual nulls
+    /// A "null" motor with no implementation to be used as a placeholder whenever necessary
     /// </summary>
     public class NullMotionStack : MotionStack {
         internal override string GetID() { return "NULL"; }

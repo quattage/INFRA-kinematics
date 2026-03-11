@@ -1,0 +1,176 @@
+.background {
+    background-color: rgb(0, 0, 0);
+}
+
+.hide {
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.unity-progress-bar {
+}
+
+.unity-progress-bar__background {
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(0, 255, 179);
+}
+
+.console {
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-Regular');
+    color: rgb(141, 141, 141);
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+}
+
+.unity-scroll-view__content-viewport {
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+
+.unity-text-field {
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-SemiBold');
+    --unity-cursor-color: rgb(255, 255, 255);
+}
+
+.unity-base-text-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    color: rgb(132, 102, 125);
+    --unity-selection-color: rgba(138, 138, 138, 0.5);
+}
+
+#unity-drag-container {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroller {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroller--vertical {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroll-view__vertical-scroller {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#Scroller {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#unity-tracker {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+#unity-dragger {
+    color: rgb(137, 137, 137);
+    background-color: rgb(137, 137, 137);
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+
+.unity-base-field__label {
+    margin-left: 1%;
+    width: auto;
+    margin-right: -145px;
+}
+
+#ConsoleInput:focus .unity-base-field__label {
+    margin-left: 1%;
+    width: auto;
+    margin-right: -145px;
+    color: rgb(240, 137, 215);
+}
+
+#CloseButton:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+.unity-scroller--vertical {
+    background-color: rgba(37, 36, 45, 0.5);
+    border-left-color: rgba(0, 0, 0, 0);
+    width: auto;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.console-message {
+    color: rgb(138, 138, 138);
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-Regular');
+}
+
+.console-error {
+    color: rgb(255, 84, 84);
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-Regular');
+}
+
+.console-warning {
+    color: rgb(255, 151, 76);
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-Regular');
+}
+
+.console-command {
+    color: rgb(240, 137, 215);
+    -unity-font-definition: resource('Fonts & Materials/IBMPlex/IBMPlexMono-SemiBold');
+}
+
+.unity-scroller__low-button {
+    color: rgba(5, 5, 5, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroller__high-button {
+    color: rgba(5, 5, 5, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+}

@@ -1,0 +1,81 @@
+#unity-tracker {
+ alignContent: FlexStart
+ alignItems: Stretch
+ alignSelf: Auto
+ backgroundColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ backgroundImage: 
+ backgroundPositionX: (type:Center x:0)
+ backgroundPositionY: (type:Center x:0)
+ backgroundRepeat: (x:NoRepeat, y:NoRepeat)
+ backgroundSize: (sizeType:Length x:100%, y:100%)
+ borderBottomColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ borderBottomLeftRadius: 0
+ borderBottomRightRadius: 0
+ borderBottomWidth: 0
+ borderLeftColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ borderLeftWidth: 1
+ borderRightColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ borderRightWidth: 1
+ borderTopColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ borderTopLeftRadius: 0
+ borderTopRightRadius: 0
+ borderTopWidth: 0
+ bottom: 0
+ color: RGBA(0.106, 0.106, 0.106, 1.000)
+ display: Flex
+ flexBasis: NaN
+ flexDirection: Column
+ flexGrow: 0
+ flexShrink: 1
+ flexWrap: NoWrap
+ fontSize: 14
+ height: 409
+ justifyContent: FlexStart
+ left: 0
+ letterSpacing: 0
+ marginBottom: 0
+ marginLeft: 0
+ marginRight: 0
+ marginTop: 0
+ maxHeight: None
+ maxWidth: None
+ minHeight: Auto
+ minWidth: Auto
+ opacity: 1
+ paddingBottom: 0
+ paddingLeft: 0
+ paddingRight: 0
+ paddingTop: 0
+ position: Absolute
+ right: 0
+ rotate: 0 (0.00, 0.00, 1.00)
+ scale: (1.00, 1.00, 1.00)
+ textOverflow: Clip
+ top: 0
+ transformOrigin: (12.00, 204.50, 0.00)
+ transitionDelay: System.Collections.Generic.List`1[UnityEngine.UIElements.TimeValue]
+ transitionDuration: System.Collections.Generic.List`1[UnityEngine.UIElements.TimeValue]
+ transitionProperty: System.Collections.Generic.List`1[UnityEngine.UIElements.StylePropertyName]
+ transitionTimingFunction: System.Collections.Generic.List`1[UnityEngine.UIElements.EasingFunction]
+ translate: (0.00, 0.00, 0.00)
+ unityBackgroundImageTintColor: RGBA(1.000, 1.000, 1.000, 1.000)
+ unityEditorTextRenderingMode: SDF
+ unityFontDefinition: NotInter-Regular (UnityEngine.Font)
+ unityFontStyleAndWeight: Normal
+ unityParagraphSpacing: 0
+ unitySliceBottom: 0
+ unitySliceLeft: 0
+ unitySliceRight: 0
+ unitySliceScale: 1
+ unitySliceTop: 0
+ unityTextAlign: UpperLeft
+ unityTextGenerator: Standard
+ unityTextOutlineColor: RGBA(0.000, 0.000, 0.000, 0.000)
+ unityTextOutlineWidth: 0
+ unityTextOverflowPosition: End
+ visibility: Visible
+ whiteSpace: Normal
+ width: 24
+ wordSpacing: 0
+ unityBackgroundScaleMode: StretchToFill
+}
